@@ -1,0 +1,11 @@
+[package]
+name = "chatpaca"
+description = "Have a real time conversation with Stanford Alpaca"
+authors = ["NotNite <hi@notnite.com>"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#llama-rs = { path = "llama-rs/llama-rs" }
+llama-rs = { git = "https://github.com/setzer22/llama-rs.git" }
+rand = "0.8.5"
